@@ -1,0 +1,82 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.upload-section {
+  margin-bottom: 15px;
+}
+
+.upload-label {
+  font-size: 1.2em;
+}
+
+button {
+  background: #ff8c00;
+  color: white;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #ff7000;
+}
+
+.photo-display img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #fff;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.gallery {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.gallery h2 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+#photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+#photo-gallery img {
+  max-width: 100px;
+  max-height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 2px solid #fff;
+}

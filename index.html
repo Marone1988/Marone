@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Photo Picker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎲 Random Photo Picker 🎲</h1>
+    <div class="upload-section">
+      <label for="upload" class="upload-label">📂 Upload Your Photos:</label>
+      <input type="file" id="upload" multiple accept="image/*">
+    </div>
+    <button id="pick-button">🎉 Choose a Random Photo</button>
+    <div class="photo-display">
+      <img id="random-photo" alt="Your random photo will appear here">
+    </div>
+    <div class="gallery">
+      <h2>Your Uploaded Photos:</h2>
+      <div id="photo-gallery"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
